@@ -6,7 +6,7 @@
 
 int funzioneRicerca(char elenco[10][20], char nome[20])
 {
-    int risultato = 1;
+    int risultato = -1;
     for(int i=0; i<10;i++)
     {
         int c=0;
